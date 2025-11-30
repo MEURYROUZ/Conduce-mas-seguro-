@@ -1,0 +1,153 @@
+* {
+margin: 0px; 
+padding: 0px;
+}
+#cabeceralogo {
+width: 96%;
+height: 150px;
+padding: 0% 2%;
+background-color: #ffd900;
+}
+#cabeceralogo > div {
+width: 960px;
+margin: 0px auto;
+padding-top: 45px;
+}
+
+#cabeceralogo h1 {
+font: bold 54px Arial, sans-serif; 
+color: #e98800;
+}
+#menuprincipal {
+width: 96%;
+height: 50px; 
+padding: 0% 2%;
+background-color: #ffcc006b; 
+border-top: 1px solid #ff7b00; 
+border-bottom: 1px solid #ff7b00;
+}
+#menuprincipal > div {
+width: 960px;
+margin: 0px auto;
+}
+
+#menuprincipal li {
+display: inline-block; 
+height: 35px;
+padding: 15px 10px 0px 10px; 
+margin-right: 5px;
+}
+#menuprincipal li:hover {
+background-color: #ffd90065;
+}
+#menuprincipal a {
+font: bold 18px Arial, sans-serif; 
+color: #c55f00;
+text-decoration: none;
+}
+main {
+width: 96%; 
+padding: 2%;
+background-image: url("amarillo.jpg");
+}
+main> div {
+width: 960px;
+margin: 0px auto;
+}
+
+
+#ingreso { 
+float: left; 
+width: 620px;
+padding-top: 30px;
+background-color: #fcebb7; 
+border-radius: 10px;
+}
+#infoadicional {
+float: right;
+width: 280px;
+padding: 20px;
+background-color: #f7e300; 
+border-radius: 10px;
+}
+#infoadicional {
+float: right;
+width: 280px;
+padding: 20px;
+background-color: #ffa600c9;
+border-radius: 10px;
+}
+#infoadicional h1 {
+font: bold 18px Arial, sans-serif;
+color: #1e1d1d;
+margin-bottom: 15px;
+}
+
+
+.recuperar {
+clear: both;
+}
+article {
+position: relative;
+padding: 0px 40px 20px 40px;
+}
+article time { display: block;
+position: absolute; 
+top: 5px;
+left: -70px;
+width: 80px;
+padding: 15px 5px;
+background-color: #da9903;
+box-shadow: 3px 3px 5px rgba(189, 152, 7, 0.7); 
+border-radius: 5px;
+}
+.numerodia {
+font: bold 28px Verdana, sans-serif; 
+color: #FFFFFF;
+text-align: center;
+}
+.nombredia {
+font: bold 12px Verdana, sans-serif; 
+color: #FFFFFF;
+text-align: center;
+}
+article h1 {
+margin-bottom: 5px;
+font: bold 30px Georgia, sans-serif;
+}
+
+article p {
+    font: 18px Georgia, sans-serif;
+    }
+figure {
+margin: 10px 0px;
+}
+figure img {
+padding: 5px; 
+border: 1px solid;
+}
+#pielogo {
+width: 96%;
+padding: 2%;
+background-color: #e98800;
+}
+
+
+#pielogo > div {
+width: 960px; 
+margin: 0px auto; 
+background-color: #e98800; 
+border-radius: 10px;
+}
+.seccionpie {
+float: left; 
+width: 270px;
+padding: 25px;
+}
+
+/*
+. seccionpie {
+float: left; 
+width: 27.33%;
+ padding: 3%;
+}

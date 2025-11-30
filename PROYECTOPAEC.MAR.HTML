@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+     <head>
+        <title> PAEC </title>
+        <meta charset="utf-8">
+        <meta name="description" content="Trabajando con HTML5">
+        <meta name-"keywords" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" href="estilovial.css">
+        <link rel="icon" href="exclamación.jpg">
+<body>
+        <header id= "cabeceralogo">
+                <div>
+                      <h1> CBTIS CONDUCE MÁS SEGURO </h1>
+                </div>
+        </header>
+<nav id="menuprincipal">
+        <div>
+
+                 <ul>
+<li><a href="OBJETIVO.HTML"> Objetivo </a></li>
+<li><a href="ACCIDENTES.HTML"> Índice de Accidentes </a></li>
+<li><a href="CONDUCCION.HTML"> Conducción Segura </a></li>
+<li><a href="FOTOS.HTML"> Fotos </a></li>
+                 </ul>
+         </div>
+</nav>
+<main>
+         <div>
+             <section id= "ingreso">
+                     <article>
+                             <h1> ¿Qué es <SPAN style="color: rgb(217, 124, 11);"> PAEC </SPAN> ? </h1>
+                             <time datetime="2018" pubdate>
+                                 <div class="numerodia"> 1</div>
+                                 <div class="nombredia"> </div>
+             </time>
+             <p > Programa Aula, Escuela y Comunidad. </p>
+             <figure>
+                    <img src="PAEC.jpg" alt="width=150px" height="250px">
+             </figure>
+<article>
+     <h1> ¿Qué es <SPAN style="color: rgb(217, 124, 11);"> CBTIS Conduce Más Seguro </SPAN> ? </h1>
+     <time datetime="2025" pubdate>
+         <div class="numerodia">2</div>
+         <div class="nombredia"> </div>
+</time>
+<p style="text-align: justify;"> Se refiere a una iniciativa de seguridad vial en la que participan varios CBTIS, como el CBTIS 67 de Misantla, 
+en colaboración con el Ayuntamiento para promover la prevención de accidentes y una cultura de vialidad responsable 
+entre los estudiantes. </p>
+<figure>
+        <img src="todos pec.jpg" alt="width=150px" height="340px">
+</figure>
+</article>
+</section>
+        <aside id="infoadicional">
+
+                <!-- Contenedor para la gráfica -->
+<div class="card">
+  <h2>Gráfica: Causas de Muerte</h2>
+  <p> ㅤ </p>
+  <div style="height:240px">
+    <canvas id="causasChart" width="360" height="240"></canvas>
+  </div>
+  <p style="font-size:13px;color:#000000;margin-top:8px; text-align: justify;">
+    Gráfica ilustrativa — basada en factores observados frecuentemente 
+    (exceso de velocidad, alcohol, distracción, condiciones).
+  </p>
+</div>
+
+<!-- Librería de Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Script para dibujar la gráfica -->
+<script>
+  // Datos de ejemplo
+  const data = {
+    labels: ['Exceso de velocidad', 'Alcohol', 'Distracción', 'Condiciones de la vía', 'Otros'],
+    datasets: [{
+      label: 'Causas (%) (estimado)',
+      data: [38, 20, 18, 12, 12], // Porcentajes de cada causa
+      backgroundColor: [
+        '#0b74de',
+        '#42a1ff',
+        '#6ee7b7',
+        '#facc15',
+        '#f87171'
+      ],
+      borderWidth: 0
+    }]
+  };
+
+  // Configuración de la gráfica
+  const config = {
+    type: 'doughnut',
+    data: data,
+    options: {
+      plugins: {
+        legend: { position: 'bottom' },
+        tooltip: { enabled: true }
+      },
+      maintainAspectRatio: false
+    }
+  };
+
+  // Renderizar la gráfica
+  new Chart(document.getElementById('causasChart'), config);
+</script>
+                
+</aside
+<div class="recuperar"></div>
+</div>
+</main>
+<footer id="pielogo">
+<div>
+<section class="seccionpie">
+         <h1>Referencias</h1>
+                <p> <a href="https://www.noticierog.com/2021/11/un-80-de-atencion-por-accidentes-de.html?utm"> noticierog.com </a></p>
+                <p> <a href="https://elchiltepin.com/noticias/locales/172263/se-reforzaran-operativos-para-evitar-accidentes-de-motos-en-misantla.html?utm"> elchiltepin.com </a></p>
+                <p> <a href="https://www.masnoticias.mx/reforzaran-operativos-para-evitar-accidentes-de-motociclistas-en-misantla/?utm"> masnoticias.mx </a></p>
+                <p> <a href="https://imagendelgolfo.mx/noticias/Incrementan-accidentes-de-moto-en-Misantla-cifra-supera-meses-anteriores-20241020-0005.html?utm"> imagendelgolfo.mx</a></p>
+                <p> <a href="https://www.facebook.com/p/CBTIS-67-Misantla-100064488534899/?locale=es_LA"> cbtis-67 </a></p>
+</section>
+<section class="seccionpie" 
+         <address>Misantla, Veracruz</address>
+         <small>&copy; Derechos Reservados 2025</small >
+</section>
+
+<div class="recuperar"></div>
+</div>
+</footer>
+</body>
+</html>
